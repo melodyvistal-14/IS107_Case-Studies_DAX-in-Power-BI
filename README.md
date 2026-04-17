@@ -9,4 +9,7 @@ So, in overall, all the calculated column is faster at only in query time and it
 2. Answer
    - The DAX time Intelligence function are a built-in, that can automatically handle data logic. It can compare the growth this year and last year, can spot a seasonal pattern and can identify underperformance early. Compared to the Excel you just manually, it's hard to maintain and easily breaks new data.
 
+3. Answer
+    - To a calculation function can change the filter context. To do this you needs to apply the filter first before recalculating. After that, you can calculate now to get the revenue of the USA only. This is important for dynamic reporting because it allows measures to respond to user interactions while still enforcing specific conditions, enabling flexible and reusable analytics.
+
 
