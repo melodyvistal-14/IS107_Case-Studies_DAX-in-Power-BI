@@ -6,3 +6,7 @@
 While the measure is calculated on the fly means that it depends on the filter, it also calculated dynamically at query time, not stored in the table. Measures are mainly used for aggregation (sum, average, count), KPI`s and dashboard and also respond to slicer.
 So, in overall, all the calculated column is faster at only in query time and it's good for only fixed logic, but its static doesn't react to filters, while in measure it's a lightweight, better for large datasets but slow in visual if it's very complex. But in time of flexibility, it's better to use the measure because they respond to user interaction in reports.
 
+2. Answer
+   - The DAX time Intelligence function are a built-in, that can automatically handle data logic. It can compare the growth this year and last year, can spot a seasonal pattern and can identify underperformance early. Compared to the Excel you just manually, it's hard to maintain and easily breaks new data.
+
+
