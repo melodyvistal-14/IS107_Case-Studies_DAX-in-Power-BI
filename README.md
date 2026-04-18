@@ -12,4 +12,7 @@ So, in overall, all the calculated column is faster at only in query time and it
 3. Answer
     - To a calculation function can change the filter context. To do this you needs to apply the filter first before recalculating. After that, you can calculate now to get the revenue of the USA only. This is important for dynamic reporting because it allows measures to respond to user interactions while still enforcing specific conditions, enabling flexible and reusable analytics.
 
+4. Answer
+   - The role of iterator functions in DAX is a loop through each row of a table, it performs a calculation and then aggregates the result, where they compute shipping cost per order based on weight and rate. So rather than using the sum and average, which only columns operate and cannot perform row-level calculations, it's better to use the sumx and averagex because they are more appropriate when the value is aggregated rather than stored.
+
 
