@@ -18,3 +18,6 @@ So, in overall, all the calculated column is faster at only in query time and it
 5. Answer
     - In Power IN DAX, Variables is to store intermediate result, while Return is to output the final result. It also means that it allows the intermediate result to be stored and reused within the formula. So this improves the readability by breaking complex calculations into logical steps and reducing repetition. It also improves the performance by preventing the need to recompute the same expression multiple times.
 
+6. Answer
+    - The VALUES function in DAX returns a table of distinct values from a column. It is commonly used to retrieve unique items such as cities, customers, or products. It is important in business intelligence because its prevent double counting and enable the accurate analysis of entities such as the number of cities contributing to sales. And if it will Combined with other with other functions the flexibility will allow the deeper insight and more dynamic reporting
+
