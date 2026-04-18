@@ -15,4 +15,6 @@ So, in overall, all the calculated column is faster at only in query time and it
 4. Answer
    - The role of iterator functions in DAX is a loop through each row of a table, it performs a calculation and then aggregates the result, where they compute shipping cost per order based on weight and rate. So rather than using the sum and average, which only columns operate and cannot perform row-level calculations, it's better to use the sumx and averagex because they are more appropriate when the value is aggregated rather than stored.
 
+5. Answer
+    - In Power IN DAX, Variables is to store intermediate result, while Return is to output the final result. It also means that it allows the intermediate result to be stored and reused within the formula. So this improves the readability by breaking complex calculations into logical steps and reducing repetition. It also improves the performance by preventing the need to recompute the same expression multiple times.
 
