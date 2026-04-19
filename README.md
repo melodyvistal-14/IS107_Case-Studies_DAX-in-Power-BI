@@ -27,5 +27,8 @@ So, in overall, all the calculated column is faster at only in query time and it
 8. Answer
     - The logical function in power BI DAX (IF, AND, OR, NOT) was used to apply business rules by evaluating the condition and returning the results, by classifying employees based on their performance score. The logical structure is very critical in Power BI because it ensures a consistent, accurate and reliable result across the report, supporting better decision-making.
 
+9. Answer
+     - DAX in Power BI offers significant advantages over traditional Excel formulas in terms of scalability, context awareness, and integration. Unlike Excel, which struggles with large datasets, DAX efficiently handles millions of rows using a data model. DAX is also context-aware, meaning calculations automatically adjust based on filters and user interactions, whereas Excel formulas are mostly static. Additionally, Power BI integrates with multiple data sources and supports centralized, reusable calculations, making it more suitable for modern business intelligence and data-driven decision-making.
 
-
+10. Answer
+     - DAX Studio is a tool used with Power BI to analyze and optimize DAX queries through features like query execution, server timings, and query plans. It helps identify performance bottlenecks and inefficient calculations. Query optimization is important for large datasets because poorly written DAX can increase processing time and resource usage. Optimizing queries improves report performance, leading to faster load times and better interactivity, which enhances the overall user experience.
