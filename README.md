@@ -20,4 +20,9 @@ So, in overall, all the calculated column is faster at only in query time and it
 
 6. Answer
     - The VALUES function in DAX returns a table of distinct values from a column. It is commonly used to retrieve unique items such as cities, customers, or products. It is important in business intelligence because its prevent double counting and enable the accurate analysis of entities such as the number of cities contributing to sales. And if it will Combined with other with other functions the flexibility will allow the deeper insight and more dynamic reporting
+  
+7. Answer
+    - The calculated column is appropriate when you need a row-level classification that stays consistent because it requires you to classify each order to the row level based on whether its sales exceed 1000. On the other hand, measures operate on aggregated data and depend on filter context, so they cannot assign a fixed label to individual rows.
+
+8.
 
