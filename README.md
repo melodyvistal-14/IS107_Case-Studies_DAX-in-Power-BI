@@ -24,5 +24,8 @@ So, in overall, all the calculated column is faster at only in query time and it
 7. Answer
     - The calculated column is appropriate when you need a row-level classification that stays consistent because it requires you to classify each order to the row level based on whether its sales exceed 1000. On the other hand, measures operate on aggregated data and depend on filter context, so they cannot assign a fixed label to individual rows.
 
-8.
+8. Answer
+    - The logical function in power BI DAX (IF, AND, OR, NOT) was used to apply business rules by evaluating the condition and returning the results, by classifying employees based on their performance score. The logical structure is very critical in Power BI because it ensures a consistent, accurate and reliable result across the report, supporting better decision-making.
+
+
 
